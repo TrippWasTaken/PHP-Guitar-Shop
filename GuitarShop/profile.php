@@ -51,7 +51,7 @@
             <div class="text-center">
                 <img src="pics/<?php echo $profile_img; ?>" class="avatar" alt="img not found" style="width:250px;height:250px;">
                 <div class="form-wrapper">
-                    <form action="includes/upload.php" method="POST" enctype="multipart/form-data">
+                    <form action="upload.php" method="POST" enctype="multipart/form-data">
                         <input class="file-btn" type="file" name="file" class="form-control-file" id="Profile-pic-upload">
                         <button class="btn btn-primary" type="submit" name="submit">UPLOAD</button>
                     </form>

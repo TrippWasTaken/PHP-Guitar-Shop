@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-include_once 'dbh.php';
+include_once 'includes/dbh.php';
 $id = $_SESSION['u_id'];
 
 if (isset($_POST['submit'])) {
